@@ -16,8 +16,10 @@ body{
     .blockchain_{
         margin: 0;
         width: 100%;
-        height: 50rem;
         background-color: rgb(18, 29, 51)
+    }
+    section{
+        height: 100%;
     }
     .top_link{
         padding: 0 5% 0 5%;
@@ -94,5 +96,8 @@ body{
     .blockchain_logo img{
         padding-top: 18px;
         width: 45%;
+    }
+    section{
+        height: 100%;
     }
 }
