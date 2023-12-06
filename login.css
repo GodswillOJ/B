@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    padding: 0;
+}
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0
+}
+@media screen and (max-width: 1886px) {
+    .blockchain_{
+        margin: 0;
+        width: 100%;
+        height: 50rem;
+        background-color: rgb(18, 29, 51)
+    }
+    .top_link{
+        padding: 0 5% 0 5%;
+    }
+    .login_links{
+        display: flex; 
+    }
+    .login_links a{
+        width: 100%;
+    }
+    .content{
+        padding-top: 7%;
+    }
+    .login_cont{
+        position: relative;
+        padding: 0 32% 5% 32%;
+    }
+    .login_block{
+        border-radius: 3%;
+    }
+    .icon1{
+        padding: 10px;
+    }
+    input{
+        padding: 6px 12px;
+        border-radius: 5px;
+        line-height: 32px;
+        border: 1px solid rgb(110, 160, 230);
+    }
+    input:active, input:focus { 
+        font-size: 13px;
+        border: 1px solid rgb(217, 59, 48);
+        outline: none; 
+        background-color: #ffffff;
+      }
+    /* Style for the input when it is focused/active */
+    input[type='submit']{
+        background: rgb(146, 190, 221);
+        border: none;
+        color: white;
+        padding: 6px 12px;
+        line-height: 28px;
+        margin-bottom: 40px;
+    }
+    .blc_act{
+        padding: 10px;
+    }
+    form{
+        border-bottom: solid 1px rgb(229, 229, 229);
+    }
+    .blk_phrase{
+        font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    }
+    .blockchain_logo{
+        background-image: url('https://login.blockchain.com/img/bg-pattern.svg');
+        box-sizing: border-box;
+        padding: 11px 0 16px 0;
+        margin-top: 0;
+        height:6rem;
+        padding-bottom: 18px;
+        background-color: rgb(18, 29, 51)
+    }
+    .blockchain_logo img{
+        width: 20%;
+    }
+}
+
+
+/* min screen view */
+@media screen and (max-width: 768px){
+    .login_cont{
+        padding: 13px 13px;
+    }
+    .blockchain_logo img{
+        padding-top: 18px;
+        width: 45%;
+    }
+}
