@@ -10,7 +10,9 @@ html{
 body{
     width: 100%;
     margin: 0;
-    padding: 0
+    padding: 0;
+    height: 100%;
+    min-height: 100%;
 }
 @media screen and (max-width: 1886px) {
     .blockchain_{
@@ -94,10 +96,10 @@ body{
         padding: 13px 13px;
     }
     .blockchain_logo img{
-        padding-top: 18px;
         width: 45%;
     }
     section{
         height: 100%;
+        min-height: 100%;
     }
 }
